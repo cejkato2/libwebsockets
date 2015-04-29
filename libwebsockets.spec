@@ -50,11 +50,9 @@ rm -rf $RPM_BUILD_ROOT
 %attr(755,root,root) /usr/bin/libwebsockets-test-ping
 %attr(755,root,root) /usr/bin/libwebsockets-test-echo
 %attr(755,root,root) /usr/bin/libwebsockets-test-fraggle
-%attr(644,root,root) /usr/lib/cmake/libwebsockets/LibwebsocketsTargets-release.cmake
-%attr(644,root,root) /usr/lib/cmake/libwebsockets/LibwebsocketsTargets.cmake
 %attr(755,root,root) 
-/%{_libdir}/libwebsockets_shared.so.5
-/%{_libdir}/libwebsockets_shared.so
+/%{_libdir}/libwebsockets.so.5
+/%{_libdir}/libwebsockets.so
 %attr(755,root,root) /usr/share/libwebsockets-test-server
 %doc
 %files devel

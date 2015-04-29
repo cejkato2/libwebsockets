@@ -828,7 +828,7 @@ Name: libwebsockets
 Description: Websockets server and client library
 Version: ${CPACK_PACKAGE_VERSION_MAJOR}.${CPACK_PACKAGE_VERSION_MINOR}
 
-Libs: -L\${libdir} -lwebsockets_shared
+Libs: -L\${libdir} -lwebsockets
 Cflags: -I\${includedir}"
 )
 
